@@ -8,30 +8,43 @@ body {
   padding: 0px;
   display: flex;
   justify-content: space-around;
-  
 }
 
 .aNav {
-  font-weight: normal;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times;
   padding: 4px 25px;
   font-size: 1.6vw;
-  font-style: italic;
+  text-transform: uppercase;
   color: rgb(165, 21, 129);
   border: 1px solid black;
-  border-radius:20px;
+  border-radius: 20px;
   text-decoration: none;
   background-color: rgb(247, 245, 241);
 }
 
 .name {
+  /*border: 3px solid black;*/
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 5vw;
-  letter-spacing: 0.8rem;
+  font-size: 6vw;
+  letter-spacing: 1.3rem;
   text-transform: uppercase;
   color: brown;
   text-align: left;
-  border: 3px solid black;
   display: inline-block;
+  margin: 0% 0% 5% 10%;
+  padding: 0%;
+}
+
+.h1Name {
+  /*border: 3px solid black;*/
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 6vw;
+  letter-spacing: 1.7rem;
+  text-transform: uppercase;
+  color: brown;
+  text-align: center;
+  display: block;
   margin: 10% 0% 5% 5%;
 }
 
@@ -39,44 +52,121 @@ body {
   border: 2px dotted black;
   width: 40%;
   padding: 2%;
-  background-color: aliceblue;
+  background-color: rgba(248, 243, 230, 0.468);
   float: right;
-  margin: 50px 10px;
+  margin: 0% 3% 0% 5%;
+}
+
+#climbingimg {
+  border: 2px dotted black;
+  width: 26%;
+  padding: 1%;
+  background-color: rgba(248, 243, 230, 0.468);
+  float: left;
+  margin: 0% 5% 0% 10%;
+}
+
+#swimg {
+  border: 2px dotted black;
+  width: 26%;
+  padding: 1%;
+  background-color: rgba(248, 243, 230, 0.468);
+  float: right;
+  margin: 0% 10% 0% 5%;
+}
+
+#catimg {
+  border: 2px dotted black;
+  width: 26%;
+  padding: 1%;
+  background-color: rgba(248, 243, 230, 0.468);
+  float: left;
+  margin: 0% 5% 0% 10%;
+}
+
+#project1img {
+  border: 2px dotted black;
+  width: 40%;
+  padding: 1%;
+  background-color: rgba(248, 243, 230, 0.468);
+  float: left;
+  margin: 2% 5% 0% 6%;
+}
+
+#project2img {
+  border: 2px dotted black;
+  width: 40%;
+  padding: 1%;
+  background-color: rgba(248, 243, 230, 0.468);
+  float: right;
+  margin: 2% 6% 0% 5%;
+}
+
+#project3img {
+  border: 2px dotted black;
+  width: 40%;
+  padding: 1%;
+  background-color: rgba(248, 243, 230, 0.468);
+  float: left;
+  margin: 2% 5% 0% 6%;
 }
 
 h1 {
-    color: brown;
-    padding: 50px;
-
+  color: brown;
+  padding: 50px;
+  overflow: hidden;
 }
 
 h2 {
+  /*border: 2px solid black;*/
   color: rgb(13, 61, 69);
-  padding: 0% 5% 5% 5%;
   font-size: 2.8vw;
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+}
+
+#h2Home {
+  margin: 0% 0% 8% 10%;
+  display: inline-flex;
+  padding: 0%;
+  overflow: hidden;
 }
 
 .secondHeader {
-    text-align: right;
+  text-align: right;
+  display: inline-block;
+  margin: 0% 13% 1% 4.5%;
 }
 
-
 h3 {
+  /*border: 2px solid black;*/
   color: rgb(41, 146, 129);
-  padding: 0% 15%;
-  font-size: 2.0vw;
+  padding: 0% 5%;
+  font-size: 2vw;
+  text-align: left;
+  overflow: hidden;
+  margin-right: 4%;
+}
+
+.secondPara {
+  text-align: left;
+  padding: 0% 5%;
+  margin-left: 4%;
 }
 
 .media-link {
   width: 2%;
   float: right;
-  padding: 15px;
-  margin: 20px;
+  padding: 0%;
+  margin: 2% 2% 1%;
+  /*border: 2px solid rgb(20, 10, 97);*/
 }
 
 .navMedia {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
-
+  /*border: 2px solid rgb(164, 220, 36);*/
 }
+
