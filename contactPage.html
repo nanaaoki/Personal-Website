@@ -1,21 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-</link>
+    </link>
+    <link rel="stylesheet" href="./header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+    </link>
+
     <title>Contact</title>
 </head>
+
 <body>
-    
+
+    <div class="pageContainer">
+        <div class="content-wrap">
+
+            <nav class="headerNav">
+                <a class="logo" href="index.html"><img src="./purple crop.png" alt="logo" class="logoimg"></a>
+                <div class="rightNav">
+                    <a class="aNav" href="./about.html">About</a>
+                    <a class="aNav" href="./portfolio.html">Portfolio</a>
+                    <a class="currentPage" href="./contactPage.html">Contact</a>
+                </div>
+            </nav>
+
+
+            <h1>contact</h1>
+
+            <div id="form-and-pic">
+
+                <form id="contactForm" action="./submitConfirm.html">
+
+                    <div class="contactGrid">
+                        <div class="name-row">
+                            <div class="fname">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" required>
+                            </div>
+                            <div class="lname">
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" required>
+                            </div>
+                        </div>
+
+                        <div class="email-row">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+
+                        <div class="message-row">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="7" required></textarea>
+                        </div>
+
+                        <div class="button-row">
+                            <button type="submit">Get in Touch</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="kochi-box">
+                    <img id="kochi-pic" src="./get in touch.jpeg" alt="working cat" />
+                </div>
+
+            </div>
+        </div>
 
 
 
-<form>
-    <input type="email" placeholder="email">
-    <input type="submit" value="Get in touch"> 
-</form>
+
+
+        <nav class="navMedia">
+
+            <a href="http://www.instagram.com/nananabread" target="_blank">
+                <img class="media-link" src="./icons8-instagram.svg" alt="Instagram">
+            </a>
+
+            <a href="https://www.linkedin.com/in/nana-aoki/" target="_blank">
+                <img class="media-link" src="./icons8-linkedin.svg" alt="LinkedIn">
+            </a>
+
+            <a href="https://github.com/nanaaoki" target="_blank">
+                <img class="media-link" src="./icons8-github.svg" alt="github">
+            </a>
+
+        </nav>
+
+    </div>
+
+
 
 </body>
+
 </html>
